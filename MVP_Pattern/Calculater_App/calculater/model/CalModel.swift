@@ -9,35 +9,69 @@ import UIKit
 
 class CalModel: NSObject {
     
+    var modelOuputNumber = ""
+    var displayNumber = ""
+    
+    func inputNum(num:String) -> String {
+        if self.modelOuputNumber.count < 9 {
+            modelOuputNumber += num
+        }
+        return modelOuputNumber
+    }
+    
     func clickZeroBtn() -> String{
-        return "Zero test git"
+        return inputNum(num: "0")
+        
+        
     }
     func clickOneBtn() -> String{
-        return "one"
+        return inputNum(num: "1")
+
     }
     func clickTwoBtn() -> String{
-        return "Two"
+        return inputNum(num: "2")
+
+        
     }
     func clickThreeBtn() -> String{
-        return "Three"
+        return inputNum(num: "3")
+
+        
     }
     func clickFourBtn() -> String{
-        return "Four"
+        return inputNum(num: "4")
+
+        
     }
     func clickFiveBtn() -> String{
-        return "Five"
+        return inputNum(num: "5")
+
+        
     }
     func clickSixBtn() -> String{
-        return "Six"
+        return inputNum(num: "6")
+
+        
     }
     func clickSevenBtn() -> String{
-        return "Seven"
+        return inputNum(num: "7")
+
+        
     }
     func clickEightBtn() -> String{
-        return "Eight"
+        return inputNum(num: "8")
+
+        
     }
     func clickNineBtn() -> String{
-        return "Nine"
+        return inputNum(num: "9")
+
+        
+    }
+    
+    func clickClearBtn() -> String {
+        modelOuputNumber = ""
+        return modelOuputNumber
     }
 
 }

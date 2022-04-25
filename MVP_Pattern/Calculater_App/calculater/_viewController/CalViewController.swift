@@ -9,6 +9,7 @@ import UIKit
 
 class CalViewController: UIViewController {
     
+    //숫자 패드 구성
     @IBOutlet weak var zeroBtn: UIButton!
     @IBOutlet weak var oneBtn: UIButton!
     @IBOutlet weak var twoBtn: UIButton!
@@ -19,6 +20,24 @@ class CalViewController: UIViewController {
     @IBOutlet weak var sevenBtn: UIButton!
     @IBOutlet weak var eightBtn: UIButton!
     @IBOutlet weak var nineBtn: UIButton!
+    
+    // . 버튼
+    @IBOutlet weak var tapDotBtn: UIButton!
+    
+    // AC 버튼
+    @IBOutlet weak var tapClearBtn: UIButton!
+    
+    // 연산자 버튼
+    @IBOutlet weak var tapPlusBtn: UIButton!
+    @IBOutlet weak var tapMinusBtn: UIButton!
+    @IBOutlet weak var tapMultiBtn: UIButton!
+    @IBOutlet weak var tapDivideBtn: UIButton!
+    @IBOutlet weak var tapPercentBtn: UIButton!
+    @IBOutlet weak var tapEqualBtn: UIButton!
+    
+    
+    // 숫자 Display 변수
+    @IBOutlet weak var numberOutputLabel: UILabel!
     
     
     var calPresenter: CalPresenter?
@@ -92,6 +111,13 @@ class CalViewController: UIViewController {
             }
         }), for: UIControl.Event.touchUpInside)
         
+        tapClearBtn.addAction(UIAction(handler: { _ in
+            if let calPresenter = self.getPresenter() {
+                calPresenter.tapClearBtn()
+            }
+        }), for: UIControl.Event.touchUpInside)
+        
+        
     }
     
     func getPresenter() -> CalPresenter? {
@@ -99,36 +125,49 @@ class CalViewController: UIViewController {
     }
     
     public func updateZeroBtn(num:String) {
-        
+        self.numberOutputLabel.text = num
+    
     }
     public func updateOneBtn(num:String) {
-        
+        self.numberOutputLabel.text = num
+
     }
     public func updateTwoBtn(num:String) {
-        
+        self.numberOutputLabel.text = num
+
     }
     public func updateThreeBtn(num:String) {
-        
+        self.numberOutputLabel.text = num
+
     }
     public func updateFourBtn(num:String) {
-        
+        self.numberOutputLabel.text = num
+
     }
     public func updateFiveBtn(num:String) {
-        
+        self.numberOutputLabel.text = num
+
     }
     public func updateSixBtn(num:String) {
-        
+        self.numberOutputLabel.text = num
+
     }
     public func updateSevenBtn(num:String) {
-        
+        self.numberOutputLabel.text = num
+
     }
     public func updateEightBtn(num:String) {
-        
+        self.numberOutputLabel.text = num
+
     }
     public func updateNineBtn(num:String) {
-        
+        self.numberOutputLabel.text = num
+
     }
     
-    
+    public func updateClearBtn(num:String) {
+        self.numberOutputLabel.text = num
+
+    }
 }
 

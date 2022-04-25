@@ -196,9 +196,9 @@
                                     <constraint firstItem="qZV-rF-GdI" firstAttribute="height" secondItem="dpk-Xo-eSf" secondAttribute="height" multiplier="0.2" id="zCG-wU-qnn"/>
                                 </constraints>
                             </view>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0000" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nDi-zj-gWH">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nDi-zj-gWH">
                                 <rect key="frame" x="20" y="194" width="374" height="204"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -222,9 +222,18 @@
                         <outlet property="fiveBtn" destination="qZV-rF-GdI" id="ABL-vx-N1u"/>
                         <outlet property="fourBtn" destination="AKf-xu-2W9" id="1bY-nz-848"/>
                         <outlet property="nineBtn" destination="3jB-5G-I4R" id="dF3-nw-jJ2"/>
+                        <outlet property="numberOutputLabel" destination="nDi-zj-gWH" id="JFY-2h-A2H"/>
                         <outlet property="oneBtn" destination="KvG-DP-yM3" id="QyK-ry-7aG"/>
                         <outlet property="sevenBtn" destination="Npg-vR-No4" id="HR4-uo-msy"/>
                         <outlet property="sixBtn" destination="JiS-JP-ZDm" id="hLu-3k-Pso"/>
+                        <outlet property="tapClearBtn" destination="yUS-EZ-wjy" id="o8L-XT-f7F"/>
+                        <outlet property="tapDivideBtn" destination="pwg-wL-AcF" id="2Bz-YZ-xTl"/>
+                        <outlet property="tapDotBtn" destination="Cb7-P8-8cS" id="ho1-LL-CqJ"/>
+                        <outlet property="tapEqualBtn" destination="Fcw-LP-Ssy" id="F9w-6a-H7e"/>
+                        <outlet property="tapMinusBtn" destination="7EJ-z7-UdB" id="Pje-E1-WQL"/>
+                        <outlet property="tapMultiBtn" destination="DTW-ld-UBk" id="eUL-Ky-mDn"/>
+                        <outlet property="tapPercentBtn" destination="iwW-Oq-jtd" id="r32-ZL-Ddg"/>
+                        <outlet property="tapPlusBtn" destination="pzn-OL-h1N" id="bIk-dc-pEP"/>
                         <outlet property="threeBtn" destination="bpj-pJ-MHB" id="DrU-JL-Tbd"/>
                         <outlet property="twoBtn" destination="2GD-8a-hMA" id="DZU-Pp-HZQ"/>
                         <outlet property="zeroBtn" destination="jwG-1q-otU" id="F5W-th-RVz"/>
