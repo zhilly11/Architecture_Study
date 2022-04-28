@@ -73,5 +73,9 @@ class CalModel: NSObject {
         modelOuputNumber = ""
         return modelOuputNumber
     }
+    
+    func clickPlusBtn() -> String {
+        return "Plus"
+    }
 
 }

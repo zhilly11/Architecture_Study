@@ -117,6 +117,12 @@ class CalViewController: UIViewController {
             }
         }), for: UIControl.Event.touchUpInside)
         
+        tapPlusBtn.addAction(UIAction(handler: { _ in
+            if let calPresenter = self.getPresenter() {
+                calPresenter.tapPlusBtn()
+            }
+        }), for: UIControl.Event.touchUpInside)
+        
         
     }
     
@@ -168,6 +174,10 @@ class CalViewController: UIViewController {
     public func updateClearBtn(num:String) {
         self.numberOutputLabel.text = num
 
+    }
+    
+    public func updatePlusBtn(num:String) {
+        self.numberOutputLabel.text = num
     }
 }
 

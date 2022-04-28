@@ -81,5 +81,12 @@ class CalPresenter: NSObject {
             view.updateClearBtn(num: model.clickClearBtn())
         }
     }
+    
+    func tapPlusBtn() {
+        if let model = getModel(),let view = getView() {
+            view.updatePlusBtn(num: model.clickPlusBtn())
+
+        }
+    }
 
 }
