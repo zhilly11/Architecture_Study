@@ -25,6 +25,7 @@ class CalPresenter: NSObject {
         return self.view
     }
     
+    
     func clickZeroBtn() {
         if let model = getModel(),let view = getView() {
             view.updateZeroBtn(num: model.clickZeroBtn())
@@ -85,7 +86,36 @@ class CalPresenter: NSObject {
     func tapPlusBtn() {
         if let model = getModel(),let view = getView() {
             view.updatePlusBtn(num: model.clickPlusBtn())
-
+        }
+    }
+    
+    func tapMinusBtn() {
+        if let model = getModel(),let view = getView() {
+            view.updateMinusBtn(num: model.clickMinusBtn())
+        }
+    }
+    
+    func tapMultiBtn() {
+        if let model = getModel(),let view = getView() {
+            view.updateMultiBtn(num: model.clickMultiBtn())
+        }
+    }
+    
+    func tapDevideBtn() {
+        if let model = getModel(),let view = getView() {
+            view.updateDevideBtn(num: model.clickDevideBtn())
+        }
+    }
+    
+    func tapPercentBtn() {
+        if let model = getModel(),let view = getView() {
+            view.updatePercentBtn(num: model.clickPercentBtn())
+        }
+    }
+    
+    func tapEqualBtn() {
+        if let model = getModel(),let view = getView() {
+            view.updateEqualBtn(num: model.clickEqualBtn())
         }
     }
 

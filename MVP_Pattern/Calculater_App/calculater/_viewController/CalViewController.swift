@@ -46,6 +46,7 @@ class CalViewController: UIViewController {
         super.viewDidLoad()
         self.calPresenter = CalPresenter()
         
+        // 의존성 부여
         if let calPresenter = calPresenter {
             calPresenter.initWithView(view: self)
         }
@@ -123,6 +124,37 @@ class CalViewController: UIViewController {
             }
         }), for: UIControl.Event.touchUpInside)
         
+        tapMinusBtn.addAction(UIAction(handler: { _ in
+            if let calPresenter = self.getPresenter() {
+                calPresenter.tapMinusBtn()
+            }
+        }), for: UIControl.Event.touchUpInside)
+        
+        
+        tapMultiBtn.addAction(UIAction(handler: { _ in
+            if let calPresenter = self.getPresenter() {
+                calPresenter.tapMultiBtn()
+            }
+        }), for: UIControl.Event.touchUpInside)
+        
+        tapDivideBtn.addAction(UIAction(handler: { _ in
+            if let calPresenter = self.getPresenter() {
+                calPresenter.tapDevideBtn()
+            }
+        }), for: UIControl.Event.touchUpInside)
+        
+        tapPercentBtn.addAction(UIAction(handler: { _ in
+            if let calPresenter = self.getPresenter() {
+                calPresenter.tapPercentBtn()
+            }
+        }), for: UIControl.Event.touchUpInside)
+        
+        tapEqualBtn.addAction(UIAction(handler: { _ in
+            if let calPresenter = self.getPresenter() {
+                calPresenter.tapEqualBtn()
+            }
+        }), for: UIControl.Event.touchUpInside)
+        
         
     }
     
@@ -179,5 +211,27 @@ class CalViewController: UIViewController {
     public func updatePlusBtn(num:String) {
         self.numberOutputLabel.text = num
     }
+    
+    public func updateMinusBtn(num:String) {
+        self.numberOutputLabel.text = num
+    }
+    
+    public func updateMultiBtn(num:String) {
+        self.numberOutputLabel.text = num
+    }
+    
+    public func updateDevideBtn(num:String) {
+        self.numberOutputLabel.text = num
+    }
+    
+    public func updatePercentBtn(num:String) {
+        self.numberOutputLabel.text = num
+    }
+    
+    public func updateEqualBtn(num:String) {
+        self.numberOutputLabel.text = num
+    }
+    
+    
 }
 
