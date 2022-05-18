@@ -68,6 +68,9 @@
                                         <rect key="frame" x="103.5" y="278.5" width="103.5" height="92.5"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="2"/>
+                                        <connections>
+                                            <outletCollection property="buttonArray" destination="KvG-DP-yM3" id="cJ1-m8-GH7"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cb7-P8-8cS">
                                         <rect key="frame" x="207" y="371" width="103.5" height="93"/>
@@ -237,6 +240,8 @@
                         <outlet property="threeBtn" destination="bpj-pJ-MHB" id="DrU-JL-Tbd"/>
                         <outlet property="twoBtn" destination="2GD-8a-hMA" id="DZU-Pp-HZQ"/>
                         <outlet property="zeroBtn" destination="jwG-1q-otU" id="F5W-th-RVz"/>
+                        <outletCollection property="buttonArray" destination="KvG-DP-yM3" collectionClass="NSMutableArray" id="kJA-iG-X3e"/>
+                        <outletCollection property="buttonArray" destination="2GD-8a-hMA" collectionClass="NSMutableArray" id="lgf-dN-2jM"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

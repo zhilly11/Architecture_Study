@@ -12,6 +12,7 @@ class CalViewController: UIViewController {
     //숫자 패드 구성
     @IBOutlet weak var zeroBtn: UIButton!
     @IBOutlet weak var oneBtn: UIButton!
+    @IBOutlet var buttonArray: [UIButton]!
     @IBOutlet weak var twoBtn: UIButton!
     @IBOutlet weak var threeBtn: UIButton!
     @IBOutlet weak var fourBtn: UIButton!
