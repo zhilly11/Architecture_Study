@@ -9,6 +9,9 @@ import UIKit
 
 class CalViewController: UIViewController {
     
+    @IBOutlet var buttons: [UIButton]!
+    @IBOutlet weak var numberOutputLabel: UILabel!
+    
     var calPresenter: CalPresenter?
     
     override func viewDidLoad() {
@@ -21,7 +24,13 @@ class CalViewController: UIViewController {
             calPresenter.initWithView(view: self)
         }
         
+            //buttons.addAction(<#T##UIAlertAction#>)
     }
+    
+    @IBAction func tapNumberButton(_ sender: UIButton) {
+        
+    }
+    
     
 }
 

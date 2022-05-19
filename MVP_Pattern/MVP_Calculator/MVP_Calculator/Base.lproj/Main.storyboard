@@ -22,76 +22,98 @@
                                         <rect key="frame" x="0.0" y="414.5" width="207" height="103.5"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="0"/>
+                                        <connections>
+                                            <action selector="tapNumberButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8yG-Y7-6K9"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="K4q-LB-6Gs" userLabel="==">
+                                        <rect key="frame" x="310.5" y="414.5" width="103.5" height="103.5"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="="/>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MMl-Tw-7Fg">
                                         <rect key="frame" x="207" y="414.5" width="103.5" height="103.5"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="."/>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="K4q-LB-6Gs">
-                                        <rect key="frame" x="310.5" y="414.5" width="103.5" height="103.5"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GYT-R5-0je">
+                                        <rect key="frame" x="103.5" y="311" width="103.5" height="103.5"/>
                                         <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="plain" title="="/>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xrJ-rs-bGN">
-                                        <rect key="frame" x="0.0" y="311" width="103.5" height="103.5"/>
-                                        <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="plain" title="1"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="2"/>
+                                        <connections>
+                                            <action selector="tapNumberButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Q9s-Wu-YaE"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cNT-zv-sen">
                                         <rect key="frame" x="207" y="311" width="103.5" height="103.5"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="3"/>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2gt-Cq-off">
-                                        <rect key="frame" x="310.5" y="311" width="103.5" height="103.5"/>
-                                        <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="plain" title="-"/>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GYT-R5-0je">
-                                        <rect key="frame" x="103.5" y="311" width="103.5" height="103.5"/>
-                                        <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="plain" title="2"/>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kwK-GF-uFg">
-                                        <rect key="frame" x="103.5" y="207" width="103.5" height="104"/>
-                                        <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="plain" title="5"/>
+                                        <connections>
+                                            <action selector="tapNumberButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9dU-uY-KTh"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a3f-wV-DKB">
                                         <rect key="frame" x="0.0" y="207" width="103.5" height="104"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="4"/>
+                                        <connections>
+                                            <action selector="tapNumberButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qH7-go-SsU"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kwK-GF-uFg">
+                                        <rect key="frame" x="103.5" y="207" width="103.5" height="104"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="5"/>
+                                        <connections>
+                                            <action selector="tapNumberButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="C8d-XP-hbT"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Etr-Of-TBq">
                                         <rect key="frame" x="207" y="207" width="103.5" height="104"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="6"/>
+                                        <connections>
+                                            <action selector="tapNumberButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="x08-Oh-AbH"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PWH-wA-wcN">
+                                        <rect key="frame" x="0.0" y="103.5" width="103.5" height="103.5"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="7"/>
+                                        <connections>
+                                            <action selector="tapNumberButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Iot-QQ-bkG"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eLL-vV-tyn">
+                                        <rect key="frame" x="103.5" y="103.5" width="103.5" height="103.5"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="8"/>
+                                        <connections>
+                                            <action selector="tapNumberButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aSb-gI-5nI"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EAa-kd-ycN">
+                                        <rect key="frame" x="207" y="103.5" width="103.5" height="103.5"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="9"/>
+                                        <connections>
+                                            <action selector="tapNumberButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="SBx-9e-ZGp"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xvr-ij-G7a">
                                         <rect key="frame" x="310.5" y="207" width="103.5" height="104"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="+"/>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PWH-wA-wcN">
-                                        <rect key="frame" x="0.0" y="103.5" width="103.5" height="103.5"/>
-                                        <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="plain" title="7"/>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eLL-vV-tyn">
-                                        <rect key="frame" x="103.5" y="103.5" width="103.5" height="103.5"/>
-                                        <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="plain" title="8"/>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EAa-kd-ycN">
-                                        <rect key="frame" x="207" y="103.5" width="103.5" height="103.5"/>
-                                        <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="plain" title="9"/>
-                                    </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Cf-5t-hwh">
                                         <rect key="frame" x="310.5" y="103.5" width="103.5" height="103.5"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="×"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2gt-Cq-off">
+                                        <rect key="frame" x="310.5" y="311" width="103.5" height="103.5"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="-"/>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fIK-KH-CwX">
                                         <rect key="frame" x="0.0" y="0.0" width="103.5" height="103.5"/>
@@ -112,6 +134,14 @@
                                         <rect key="frame" x="310.5" y="0.0" width="103.5" height="103.5"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="÷"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xrJ-rs-bGN">
+                                        <rect key="frame" x="0.0" y="311" width="103.5" height="103.5"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="1"/>
+                                        <connections>
+                                            <action selector="tapNumberButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="CW2-GP-EJ0"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -216,6 +246,28 @@
                             <constraint firstItem="I2E-bF-wua" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="rOe-uD-Qzn"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="numberOutputLabel" destination="I2E-bF-wua" id="TSU-dz-g4k"/>
+                        <outletCollection property="buttons" destination="9Hy-Er-5T8" collectionClass="NSMutableArray" id="crW-SB-3J7"/>
+                        <outletCollection property="buttons" destination="MMl-Tw-7Fg" collectionClass="NSMutableArray" id="L1e-ry-Xoz"/>
+                        <outletCollection property="buttons" destination="K4q-LB-6Gs" collectionClass="NSMutableArray" id="h0f-K4-W5D"/>
+                        <outletCollection property="buttons" destination="xrJ-rs-bGN" collectionClass="NSMutableArray" id="gsp-cR-Wcq"/>
+                        <outletCollection property="buttons" destination="GYT-R5-0je" collectionClass="NSMutableArray" id="dvc-T0-qXw"/>
+                        <outletCollection property="buttons" destination="cNT-zv-sen" collectionClass="NSMutableArray" id="8ed-dm-c6T"/>
+                        <outletCollection property="buttons" destination="2gt-Cq-off" collectionClass="NSMutableArray" id="If8-yA-Thk"/>
+                        <outletCollection property="buttons" destination="a3f-wV-DKB" collectionClass="NSMutableArray" id="jOS-XA-c0T"/>
+                        <outletCollection property="buttons" destination="kwK-GF-uFg" collectionClass="NSMutableArray" id="ZFT-rA-qjb"/>
+                        <outletCollection property="buttons" destination="Etr-Of-TBq" collectionClass="NSMutableArray" id="mkp-Ro-Qk8"/>
+                        <outletCollection property="buttons" destination="xvr-ij-G7a" collectionClass="NSMutableArray" id="E9a-WR-zIT"/>
+                        <outletCollection property="buttons" destination="PWH-wA-wcN" collectionClass="NSMutableArray" id="9wJ-yX-QWT"/>
+                        <outletCollection property="buttons" destination="eLL-vV-tyn" collectionClass="NSMutableArray" id="47r-o8-Xsl"/>
+                        <outletCollection property="buttons" destination="EAa-kd-ycN" collectionClass="NSMutableArray" id="FId-gU-AxO"/>
+                        <outletCollection property="buttons" destination="6Cf-5t-hwh" collectionClass="NSMutableArray" id="h7R-Vh-nke"/>
+                        <outletCollection property="buttons" destination="fIK-KH-CwX" collectionClass="NSMutableArray" id="WQY-EB-0nS"/>
+                        <outletCollection property="buttons" destination="0cO-dB-g1D" collectionClass="NSMutableArray" id="g19-5q-h3Q"/>
+                        <outletCollection property="buttons" destination="RGM-Qk-xBP" collectionClass="NSMutableArray" id="bbg-78-zDM"/>
+                        <outletCollection property="buttons" destination="4UE-Ei-3nA" collectionClass="NSMutableArray" id="Ucn-fg-tSN"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
