@@ -9,4 +9,14 @@ import Foundation
 
 class CalModel: NSObject {
     
+    var displayNumber = ""
+    
+    func inputNumberButton(num: String) -> String{
+        if self.displayNumber.count < 9 {
+            self.displayNumber += num
+            return displayNumber
+        }
+        return displayNumber
+    }
+    
 }

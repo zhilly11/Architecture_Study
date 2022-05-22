@@ -10,9 +10,15 @@ import UIKit
 class CalViewController: UIViewController {
     
     @IBOutlet var buttons: [UIButton]!
+    
+    
     @IBOutlet weak var numberOutputLabel: UILabel!
     
+    
     var calPresenter: CalPresenter?
+    
+    var displayNumber = ""
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -24,13 +30,55 @@ class CalViewController: UIViewController {
             calPresenter.initWithView(view: self)
         }
         
-            //buttons.addAction(<#T##UIAlertAction#>)
-    }
-    
-    @IBAction func tapNumberButton(_ sender: UIButton) {
         
     }
     
+    @IBAction func tapNumberButton(_ sender: UIButton) {
+        guard let numberValue = sender.title(for: .normal) else { return }
+        if self.displayNumber.count < 9 {
+            self.displayNumber += numberValue
+            self.numberOutputLabel.text = self.displayNumber
+        }
+        /*
+        self.numberOutputLabel.text = numberValue
+        if let calPresenter = calPresenter {
+            calPresenter.clickNumberButton(number: numberValue)
+        }
+        */
+        
+    }
     
+    @IBAction func tapClearButton(_ sender: UIButton) {
+    }
+    
+    
+    @IBAction func tapDotButton(_ sender: UIButton) {
+    }
+    
+    @IBAction func tapDivideButton(_ sender: UIButton) {
+        //self.operation(.Divide)
+    }
+    
+    @IBAction func tapMultiplyButton(_ sender: UIButton) {
+        //self.operation(.Multiply)
+    }
+    
+    
+    @IBAction func tapSubtractButton(_ sender: UIButton) {
+        //self.operation(.Subtract)
+    }
+    
+    @IBAction func tapAddButton(_ sender: UIButton) {
+        //self.operation(.Add)
+    }
+    
+    @IBAction func tapEqualButton(_ sender: UIButton) {
+        //self.operation(self.currentOperation)
+    }
+    
+    
+    public func updateOutputLabel(num: String) {
+        self.numberOutputLabel.text = num
+    }
 }
 

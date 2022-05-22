@@ -26,4 +26,13 @@ class CalPresenter: NSObject {
     func getView() -> CalViewController? {
         return self.view
     }
+    
+    func clickNumberButton(number: String) {
+        if let model = getModel(),let view = getView() {
+            view.updateOutputLabel(num: model.inputNumberButton(num: number))
+        }
+    }
+    
+    
+    
 }
