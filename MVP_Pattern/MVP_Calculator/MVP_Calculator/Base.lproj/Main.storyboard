@@ -20,187 +20,184 @@
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Hy-Er-5T8">
                                         <rect key="frame" x="0.0" y="414.5" width="207" height="103.5"/>
-                                        <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="plain" title="0">
-                                            <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        </buttonConfiguration>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="0">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
                                         <connections>
-                                            <action selector="tapNumberButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8yG-Y7-6K9"/>
+                                            <action selector="tapNumberButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="O3C-uo-DnC"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="K4q-LB-6Gs" userLabel="==">
                                         <rect key="frame" x="310.5" y="414.5" width="103.5" height="103.5"/>
-                                        <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="plain" title="=">
-                                            <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        </buttonConfiguration>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="=">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
                                         <connections>
-                                            <action selector="tapEqualButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="FV4-xL-UXj"/>
+                                            <action selector="tapOperationButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="WHk-5e-NwN"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MMl-Tw-7Fg">
                                         <rect key="frame" x="207" y="414.5" width="103.5" height="103.5"/>
-                                        <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="plain" title=".">
-                                            <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        </buttonConfiguration>
-                                        <connections>
-                                            <action selector="tapDotButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zrg-qc-JWM"/>
-                                        </connections>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title=".">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GYT-R5-0je">
                                         <rect key="frame" x="103.5" y="311" width="103.5" height="103.5"/>
-                                        <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="plain" title="2">
-                                            <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        </buttonConfiguration>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="2">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
                                         <connections>
-                                            <action selector="tapNumberButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Q9s-Wu-YaE"/>
+                                            <action selector="tapNumberButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hbI-Q1-wST"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cNT-zv-sen">
                                         <rect key="frame" x="207" y="311" width="103.5" height="103.5"/>
-                                        <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="plain" title="3">
-                                            <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        </buttonConfiguration>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="3">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
                                         <connections>
-                                            <action selector="tapNumberButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9dU-uY-KTh"/>
+                                            <action selector="tapNumberButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vPS-lX-fm8"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a3f-wV-DKB">
                                         <rect key="frame" x="0.0" y="207" width="103.5" height="104"/>
-                                        <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="plain" title="4">
-                                            <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        </buttonConfiguration>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="4">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
                                         <connections>
-                                            <action selector="tapNumberButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qH7-go-SsU"/>
+                                            <action selector="tapNumberButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Khs-PI-rEN"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kwK-GF-uFg">
                                         <rect key="frame" x="103.5" y="207" width="103.5" height="104"/>
-                                        <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="plain" title="5">
-                                            <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        </buttonConfiguration>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="5">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
                                         <connections>
-                                            <action selector="tapNumberButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="C8d-XP-hbT"/>
+                                            <action selector="tapNumberButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gHD-Y8-ueD"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Etr-Of-TBq">
                                         <rect key="frame" x="207" y="207" width="103.5" height="104"/>
-                                        <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="plain" title="6">
-                                            <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        </buttonConfiguration>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="6">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
                                         <connections>
-                                            <action selector="tapNumberButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="x08-Oh-AbH"/>
+                                            <action selector="tapNumberButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="oi3-FH-cYs"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PWH-wA-wcN">
                                         <rect key="frame" x="0.0" y="103.5" width="103.5" height="103.5"/>
-                                        <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="plain" title="7">
-                                            <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        </buttonConfiguration>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="7">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
                                         <connections>
-                                            <action selector="tapNumberButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Iot-QQ-bkG"/>
+                                            <action selector="tapNumberButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wRA-Rk-gFL"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eLL-vV-tyn">
                                         <rect key="frame" x="103.5" y="103.5" width="103.5" height="103.5"/>
-                                        <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="plain" title="8">
-                                            <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        </buttonConfiguration>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="8">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
                                         <connections>
-                                            <action selector="tapNumberButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aSb-gI-5nI"/>
+                                            <action selector="tapNumberButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="P2B-vv-8jH"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EAa-kd-ycN">
                                         <rect key="frame" x="207" y="103.5" width="103.5" height="103.5"/>
-                                        <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="plain" title="9">
-                                            <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        </buttonConfiguration>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="9">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
                                         <connections>
-                                            <action selector="tapNumberButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="SBx-9e-ZGp"/>
+                                            <action selector="tapNumberButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="CY3-IA-z4U"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xvr-ij-G7a">
                                         <rect key="frame" x="310.5" y="207" width="103.5" height="104"/>
-                                        <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="plain" title="+">
-                                            <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        </buttonConfiguration>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="+">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
                                         <connections>
-                                            <action selector="tapAddButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ngK-h2-GgT"/>
+                                            <action selector="tapOperationButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cOP-dp-JxK"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Cf-5t-hwh">
                                         <rect key="frame" x="310.5" y="103.5" width="103.5" height="103.5"/>
-                                        <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="plain" title="×">
-                                            <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        </buttonConfiguration>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="×">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
                                         <connections>
-                                            <action selector="tapMultiplyButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="J3H-ZG-ID3"/>
+                                            <action selector="tapOperationButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4gr-BY-z77"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2gt-Cq-off">
                                         <rect key="frame" x="310.5" y="311" width="103.5" height="103.5"/>
-                                        <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="plain" title="-">
-                                            <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        </buttonConfiguration>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="-">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
                                         <connections>
-                                            <action selector="tapSubtractButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="57L-6g-xny"/>
+                                            <action selector="tapOperationButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mJH-5b-elj"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fIK-KH-CwX">
                                         <rect key="frame" x="0.0" y="0.0" width="103.5" height="103.5"/>
-                                        <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="plain" title="AC">
-                                            <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        </buttonConfiguration>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="AC">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
                                         <connections>
-                                            <action selector="tapClearButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="KOR-db-aBF"/>
+                                            <action selector="tapClearButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="P8h-84-H8t"/>
                                         </connections>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0cO-dB-g1D">
-                                        <rect key="frame" x="103.5" y="0.0" width="103.5" height="103.5"/>
-                                        <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="plain" title="+/-">
-                                            <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        </buttonConfiguration>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RGM-Qk-xBP">
                                         <rect key="frame" x="207" y="0.0" width="103.5" height="103.5"/>
-                                        <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="plain" title="%">
-                                            <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        </buttonConfiguration>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="%">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4UE-Ei-3nA">
                                         <rect key="frame" x="310.5" y="0.0" width="103.5" height="103.5"/>
-                                        <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="plain" title="÷">
-                                            <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        </buttonConfiguration>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="÷">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
                                         <connections>
-                                            <action selector="tapDivideButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="tBz-JJ-Ru4"/>
+                                            <action selector="tapOperationButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="icl-Nx-yhw"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xrJ-rs-bGN">
                                         <rect key="frame" x="0.0" y="311" width="103.5" height="103.5"/>
-                                        <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="plain" title="1">
-                                            <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        </buttonConfiguration>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="1">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
                                         <connections>
-                                            <action selector="tapNumberButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="CW2-GP-EJ0"/>
+                                            <action selector="tapNumberButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Gql-ZU-xlD"/>
                                         </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0cO-dB-g1D">
+                                        <rect key="frame" x="103.5" y="0.0" width="103.5" height="103.5"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="+/-">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -306,26 +303,24 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="numberOutputLabel" destination="I2E-bF-wua" id="TSU-dz-g4k"/>
-                        <outletCollection property="buttons" destination="9Hy-Er-5T8" collectionClass="NSMutableArray" id="crW-SB-3J7"/>
-                        <outletCollection property="buttons" destination="MMl-Tw-7Fg" collectionClass="NSMutableArray" id="L1e-ry-Xoz"/>
-                        <outletCollection property="buttons" destination="K4q-LB-6Gs" collectionClass="NSMutableArray" id="h0f-K4-W5D"/>
-                        <outletCollection property="buttons" destination="xrJ-rs-bGN" collectionClass="NSMutableArray" id="gsp-cR-Wcq"/>
-                        <outletCollection property="buttons" destination="GYT-R5-0je" collectionClass="NSMutableArray" id="dvc-T0-qXw"/>
-                        <outletCollection property="buttons" destination="cNT-zv-sen" collectionClass="NSMutableArray" id="8ed-dm-c6T"/>
-                        <outletCollection property="buttons" destination="2gt-Cq-off" collectionClass="NSMutableArray" id="If8-yA-Thk"/>
-                        <outletCollection property="buttons" destination="a3f-wV-DKB" collectionClass="NSMutableArray" id="jOS-XA-c0T"/>
-                        <outletCollection property="buttons" destination="kwK-GF-uFg" collectionClass="NSMutableArray" id="ZFT-rA-qjb"/>
-                        <outletCollection property="buttons" destination="Etr-Of-TBq" collectionClass="NSMutableArray" id="mkp-Ro-Qk8"/>
-                        <outletCollection property="buttons" destination="xvr-ij-G7a" collectionClass="NSMutableArray" id="E9a-WR-zIT"/>
-                        <outletCollection property="buttons" destination="PWH-wA-wcN" collectionClass="NSMutableArray" id="9wJ-yX-QWT"/>
-                        <outletCollection property="buttons" destination="eLL-vV-tyn" collectionClass="NSMutableArray" id="47r-o8-Xsl"/>
-                        <outletCollection property="buttons" destination="EAa-kd-ycN" collectionClass="NSMutableArray" id="FId-gU-AxO"/>
-                        <outletCollection property="buttons" destination="6Cf-5t-hwh" collectionClass="NSMutableArray" id="h7R-Vh-nke"/>
-                        <outletCollection property="buttons" destination="fIK-KH-CwX" collectionClass="NSMutableArray" id="WQY-EB-0nS"/>
-                        <outletCollection property="buttons" destination="0cO-dB-g1D" collectionClass="NSMutableArray" id="g19-5q-h3Q"/>
-                        <outletCollection property="buttons" destination="RGM-Qk-xBP" collectionClass="NSMutableArray" id="bbg-78-zDM"/>
-                        <outletCollection property="buttons" destination="4UE-Ei-3nA" collectionClass="NSMutableArray" id="Ucn-fg-tSN"/>
+                        <outlet property="clearButton" destination="fIK-KH-CwX" id="nZU-gl-9Wg"/>
+                        <outlet property="numberOutputLabel" destination="I2E-bF-wua" id="cdf-gZ-flv"/>
+                        <outletCollection property="numberButton" destination="9Hy-Er-5T8" collectionClass="NSMutableArray" id="bKj-aH-y5h"/>
+                        <outletCollection property="numberButton" destination="xrJ-rs-bGN" collectionClass="NSMutableArray" id="IyI-Ps-YXg"/>
+                        <outletCollection property="numberButton" destination="GYT-R5-0je" collectionClass="NSMutableArray" id="4hW-gW-QmA"/>
+                        <outletCollection property="numberButton" destination="cNT-zv-sen" collectionClass="NSMutableArray" id="aee-uY-u5C"/>
+                        <outletCollection property="numberButton" destination="a3f-wV-DKB" collectionClass="NSMutableArray" id="5jW-Kn-al2"/>
+                        <outletCollection property="numberButton" destination="kwK-GF-uFg" collectionClass="NSMutableArray" id="cpc-CT-rD5"/>
+                        <outletCollection property="numberButton" destination="Etr-Of-TBq" collectionClass="NSMutableArray" id="gzR-D2-4TA"/>
+                        <outletCollection property="numberButton" destination="PWH-wA-wcN" collectionClass="NSMutableArray" id="hcB-u9-aKK"/>
+                        <outletCollection property="numberButton" destination="eLL-vV-tyn" collectionClass="NSMutableArray" id="WSh-P4-cqb"/>
+                        <outletCollection property="numberButton" destination="EAa-kd-ycN" collectionClass="NSMutableArray" id="agn-mF-g6Q"/>
+                        <outletCollection property="operationButton" destination="RGM-Qk-xBP" collectionClass="NSMutableArray" id="Lco-WJ-ttm"/>
+                        <outletCollection property="operationButton" destination="4UE-Ei-3nA" collectionClass="NSMutableArray" id="wV0-Gt-bXo"/>
+                        <outletCollection property="operationButton" destination="6Cf-5t-hwh" collectionClass="NSMutableArray" id="Xnu-gV-gDN"/>
+                        <outletCollection property="operationButton" destination="xvr-ij-G7a" collectionClass="NSMutableArray" id="P3N-GL-w2i"/>
+                        <outletCollection property="operationButton" destination="2gt-Cq-off" collectionClass="NSMutableArray" id="pyK-yd-LLX"/>
+                        <outletCollection property="operationButton" destination="K4q-LB-6Gs" collectionClass="NSMutableArray" id="tKU-4t-ndQ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

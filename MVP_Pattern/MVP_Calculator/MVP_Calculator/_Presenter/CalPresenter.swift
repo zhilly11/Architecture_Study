@@ -33,6 +33,18 @@ class CalPresenter: NSObject {
         }
     }
     
+    func clickOperationButton(oper: String) {
+        if let model = getModel(),let view = getView() {
+            view.updateOutputLabel(num: model.operationButton(oper: oper))
+        }
+    }
+    
+    func clickClearButton() {
+        if let model = getModel(),let view = getView() {
+            view.updateOutputLabel(num: model.clearButton())
+        }
+    }
+    
     
     
 }

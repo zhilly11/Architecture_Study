@@ -9,16 +9,14 @@ import UIKit
 
 class CalViewController: UIViewController {
     
-    @IBOutlet var buttons: [UIButton]!
-    
+    @IBOutlet var numberButton: [UIButton]!
+    @IBOutlet var operationButton: [UIButton]!
+    @IBOutlet weak var clearButton: UIButton!
     
     @IBOutlet weak var numberOutputLabel: UILabel!
     
-    
+
     var calPresenter: CalPresenter?
-    
-    var displayNumber = ""
-    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -29,51 +27,26 @@ class CalViewController: UIViewController {
         if let calPresenter = calPresenter {
             calPresenter.initWithView(view: self)
         }
-        
-        
     }
     
     @IBAction func tapNumberButton(_ sender: UIButton) {
         guard let numberValue = sender.title(for: .normal) else { return }
-        if self.displayNumber.count < 9 {
-            self.displayNumber += numberValue
-            self.numberOutputLabel.text = self.displayNumber
-        }
-        /*
-        self.numberOutputLabel.text = numberValue
         if let calPresenter = calPresenter {
             calPresenter.clickNumberButton(number: numberValue)
         }
-        */
-        
+    }
+    
+    @IBAction func tapOperationButton(_ sender: UIButton) {
+        guard let operationValue = sender.title(for: .normal) else { return }
+        if let calPresenter = calPresenter {
+            calPresenter.clickOperationButton(oper: operationValue)
+        }
     }
     
     @IBAction func tapClearButton(_ sender: UIButton) {
-    }
-    
-    
-    @IBAction func tapDotButton(_ sender: UIButton) {
-    }
-    
-    @IBAction func tapDivideButton(_ sender: UIButton) {
-        //self.operation(.Divide)
-    }
-    
-    @IBAction func tapMultiplyButton(_ sender: UIButton) {
-        //self.operation(.Multiply)
-    }
-    
-    
-    @IBAction func tapSubtractButton(_ sender: UIButton) {
-        //self.operation(.Subtract)
-    }
-    
-    @IBAction func tapAddButton(_ sender: UIButton) {
-        //self.operation(.Add)
-    }
-    
-    @IBAction func tapEqualButton(_ sender: UIButton) {
-        //self.operation(self.currentOperation)
+        if let calPresenter = calPresenter {
+            calPresenter.clickClearButton()
+        }
     }
     
     
