@@ -9,21 +9,22 @@ import Foundation
 import UIKit
 
 
-class CalPresenter: NSObject {
+class CalPresenter: NSObject,PresentProtocol {
     
     var calModel: CalModel?
-    var view: CalViewController?
+    var view: ViewProtocol?
     
-    public func initWithView(view:CalViewController)  {
+    public func initWithView(view:ViewProtocol) -> PresentProtocol {
         self.view = view
         self.calModel = CalModel()
+        return self
     }
     
-    func getModel() -> CalModel?{
+    private func getModel() -> CalModel?{
         return self.calModel
     }
     
-    func getView() -> CalViewController? {
+    private func getView() -> ViewProtocol? {
         return self.view
     }
     

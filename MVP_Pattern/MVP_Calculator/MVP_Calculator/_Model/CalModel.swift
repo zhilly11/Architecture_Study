@@ -56,7 +56,7 @@ class CalModel: NSObject {
             self.operation(self.currentOperation)
             return result
         }
-            
+        
         return displayNumber
     }
     

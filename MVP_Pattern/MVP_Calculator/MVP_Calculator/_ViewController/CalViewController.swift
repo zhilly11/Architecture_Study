@@ -7,7 +7,7 @@
 
 import UIKit
 
-class CalViewController: UIViewController {
+class CalViewController: UIViewController,ViewProtocol {
     
     @IBOutlet var numberButton: [UIButton]!
     @IBOutlet var operationButton: [UIButton]!
@@ -16,16 +16,17 @@ class CalViewController: UIViewController {
     @IBOutlet weak var numberOutputLabel: UILabel!
     
 
-    var calPresenter: CalPresenter?
+    var calPresenter: PresentProtocol!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        self.calPresenter = CalPresenter()
+        //할당만 받은것
+        //self.calPresenter = CalPresenter()
         
         // 의존성 부여
         if let calPresenter = calPresenter {
-            calPresenter.initWithView(view: self)
+            self.calPresenter = calPresenter.initWithView(view: self)
         }
     }
     
