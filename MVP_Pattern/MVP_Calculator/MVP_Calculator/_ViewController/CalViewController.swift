@@ -50,6 +50,8 @@ class CalViewController: UIViewController,ViewProtocol {
         }
     }
     
+    @IBAction func tapDotButton(_ sender: UIButton) {
+    }
     
     public func updateOutputLabel(num: String) {
         self.numberOutputLabel.text = num

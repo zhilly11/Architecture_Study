@@ -46,6 +46,12 @@ class CalPresenter: NSObject,PresentProtocol {
         }
     }
     
+    func clickDotButton() {
+        if let model = getModel(),let view = getView() {
+            view.updateOutputLabel(num: model.dotButton())
+        }
+    }
+    
     
     
 }

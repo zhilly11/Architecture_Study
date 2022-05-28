@@ -60,6 +60,13 @@ class CalModel: NSObject {
         return displayNumber
     }
     
+    func dotButton() -> String {
+        if self.displayNumber.count < 8, !self.displayNumber.contains(".") {
+            self.displayNumber += self.displayNumber.isEmpty ? "0." : "."
+        }
+        return displayNumber
+    }
+    
     //연산 함수
     func operation(_ operation: Operation) {
         if self.currentOperation != .unknown {
