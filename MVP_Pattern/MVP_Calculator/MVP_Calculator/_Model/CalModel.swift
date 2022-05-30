@@ -17,7 +17,18 @@ enum Operation {
 
 class CalModel: NSObject {
     
-    var displayNumber = ""
+    
+    
+    var displayNumber: String {
+        get {
+            return self.displayNumber
+        }
+        set(newVal) {
+            self.displayNumber = newVal
+        }
+    }
+    
+    
     var firstOperand = ""
     var secondOperand = ""
     var result = ""
