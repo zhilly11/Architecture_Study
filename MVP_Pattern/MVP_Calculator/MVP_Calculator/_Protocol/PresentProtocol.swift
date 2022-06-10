@@ -7,9 +7,7 @@
 
 import Foundation
 
-protocol PresentProtocol {
-    func initWithView(view:ViewProtocol) -> PresentProtocol
-    
+protocol PresentProtocol: BasePresentProtocol {
     func clickNumberButton(number: String)
     func clickOperationButton(oper: String)
     func clickClearButton()

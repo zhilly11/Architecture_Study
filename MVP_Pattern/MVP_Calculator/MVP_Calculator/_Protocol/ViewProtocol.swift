@@ -7,7 +7,11 @@
 
 import Foundation
 
-protocol ViewProtocol {
+protocol ViewProtocol: BaseViewProtocol {
+    
+    
+    
     func updateOutputLabel(num: String)
 }
+
 

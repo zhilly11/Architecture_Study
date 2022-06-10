@@ -7,7 +7,7 @@
 
 import UIKit
 
-class CalViewController: UIViewController,ViewProtocol {
+class CalViewController: UIViewController, ViewProtocol {
     
     @IBOutlet var numberButton: [UIButton]!
     @IBOutlet var operationButton: [UIButton]!
@@ -16,23 +16,21 @@ class CalViewController: UIViewController,ViewProtocol {
     @IBOutlet weak var numberOutputLabel: UILabel!
     
 
-    var calPresenter: PresentProtocol!
+    var calPresenter : BasePresentProtocol!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        //할당만 받은것
-        //self.calPresenter = CalPresenter()
-        
-        // 의존성 부여
-        if let calPresenter = calPresenter {
-            self.calPresenter = calPresenter.initWithView(view: self)
+        if calPresenter != nil {
+            self.calPresenter = presenterMaker.makePresenter(view: self)
+            calPresenter.clickNumberButton(number: "")
         }
     }
     
     @IBAction func tapNumberButton(_ sender: UIButton) {
         guard let numberValue = sender.title(for: .normal) else { return }
         if let calPresenter = calPresenter {
+            
             calPresenter.clickNumberButton(number: numberValue)
         }
     }
@@ -51,10 +49,12 @@ class CalViewController: UIViewController,ViewProtocol {
     }
     
     @IBAction func tapDotButton(_ sender: UIButton) {
+        
     }
     
     public func updateOutputLabel(num: String) {
         self.numberOutputLabel.text = num
     }
+
 }
 

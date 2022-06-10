@@ -16,6 +16,9 @@
 		B48DD36128325F7D00EA9C30 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B48DD35F28325F7D00EA9C30 /* LaunchScreen.storyboard */; };
 		B48DD389283260D400EA9C30 /* CalModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B48DD388283260D400EA9C30 /* CalModel.swift */; };
 		B48DD38B283260FE00EA9C30 /* CalPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B48DD38A283260FE00EA9C30 /* CalPresenter.swift */; };
+		B4C25EBC28535EE30053F5E4 /* BaseViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4C25EBB28535EE30053F5E4 /* BaseViewProtocol.swift */; };
+		B4C25EBE28535EF80053F5E4 /* BasePresentProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4C25EBD28535EF80053F5E4 /* BasePresentProtocol.swift */; };
+		B4C25EC0285385CB0053F5E4 /* PresenterMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4C25EBF285385CB0053F5E4 /* PresenterMaker.swift */; };
 		B4FC1530283B608B00F6AB6F /* ViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4FC152F283B608B00F6AB6F /* ViewProtocol.swift */; };
 		B4FC1532283B60BB00F6AB6F /* PresentProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4FC1531283B60BB00F6AB6F /* PresentProtocol.swift */; };
 /* End PBXBuildFile section */
@@ -51,6 +54,9 @@
 		B48DD37128325F7D00EA9C30 /* MVP_CalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MVP_CalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B48DD388283260D400EA9C30 /* CalModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalModel.swift; sourceTree = "<group>"; };
 		B48DD38A283260FE00EA9C30 /* CalPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalPresenter.swift; sourceTree = "<group>"; };
+		B4C25EBB28535EE30053F5E4 /* BaseViewProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewProtocol.swift; sourceTree = "<group>"; };
+		B4C25EBD28535EF80053F5E4 /* BasePresentProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasePresentProtocol.swift; sourceTree = "<group>"; };
+		B4C25EBF285385CB0053F5E4 /* PresenterMaker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresenterMaker.swift; sourceTree = "<group>"; };
 		B4FC152F283B608B00F6AB6F /* ViewProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewProtocol.swift; sourceTree = "<group>"; };
 		B4FC1531283B60BB00F6AB6F /* PresentProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentProtocol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -153,6 +159,9 @@
 			children = (
 				B4FC152F283B608B00F6AB6F /* ViewProtocol.swift */,
 				B4FC1531283B60BB00F6AB6F /* PresentProtocol.swift */,
+				B4C25EBB28535EE30053F5E4 /* BaseViewProtocol.swift */,
+				B4C25EBD28535EF80053F5E4 /* BasePresentProtocol.swift */,
+				B4C25EBF285385CB0053F5E4 /* PresenterMaker.swift */,
 			);
 			path = _Protocol;
 			sourceTree = "<group>";
@@ -291,8 +300,11 @@
 				B41B9ADC2834C83A00C2867A /* RoundButton.swift in Sources */,
 				B48DD35928325F7C00EA9C30 /* CalViewController.swift in Sources */,
 				B48DD38B283260FE00EA9C30 /* CalPresenter.swift in Sources */,
+				B4C25EC0285385CB0053F5E4 /* PresenterMaker.swift in Sources */,
 				B4FC1532283B60BB00F6AB6F /* PresentProtocol.swift in Sources */,
 				B48DD35528325F7C00EA9C30 /* AppDelegate.swift in Sources */,
+				B4C25EBC28535EE30053F5E4 /* BaseViewProtocol.swift in Sources */,
+				B4C25EBE28535EF80053F5E4 /* BasePresentProtocol.swift in Sources */,
 				B4FC1530283B608B00F6AB6F /* ViewProtocol.swift in Sources */,
 				B48DD389283260D400EA9C30 /* CalModel.swift in Sources */,
 				B48DD35728325F7C00EA9C30 /* SceneDelegate.swift in Sources */,
