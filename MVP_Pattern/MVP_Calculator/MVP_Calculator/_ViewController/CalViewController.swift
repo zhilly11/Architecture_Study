@@ -7,24 +7,20 @@
 
 import UIKit
 
-class CalViewController: UIViewController, ViewProtocol {
+class CalViewController: UIViewController {
     
     @IBOutlet var numberButton: [UIButton]!
     @IBOutlet var operationButton: [UIButton]!
     @IBOutlet weak var clearButton: UIButton!
-    
     @IBOutlet weak var numberOutputLabel: UILabel!
     
-
-    var calPresenter : BasePresentProtocol!
+    var calPresenter : PresentProtocol!
     
+
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        if calPresenter != nil {
-            self.calPresenter = presenterMaker.makePresenter(view: self)
-            calPresenter.clickNumberButton(number: "")
-        }
+        self.calPresenter = presenterMaker.makePresenter(view: self) as? PresentProtocol
     }
     
     @IBAction func tapNumberButton(_ sender: UIButton) {
@@ -52,9 +48,11 @@ class CalViewController: UIViewController, ViewProtocol {
         
     }
     
+}
+
+extension CalViewController: ViewProtocol {
     public func updateOutputLabel(num: String) {
         self.numberOutputLabel.text = num
     }
-
 }
 

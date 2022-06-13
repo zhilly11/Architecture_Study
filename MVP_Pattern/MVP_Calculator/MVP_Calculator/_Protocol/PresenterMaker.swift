@@ -8,16 +8,13 @@
 import Foundation
 
 public class presenterMaker {
-    
-    static func makePresenter(view:BaseViewProtocol) -> BasePresentProtocol {
-        var retPresenter: BasePresentProtocol! = nil
+    static func makePresenter(view:BaseViewProtocol) -> BasePresentProtocol? {
+        var retPresenter: BasePresentProtocol? = nil
         
         if let view = view as? ViewProtocol {
             retPresenter = CalPresenter().initView(view: view)
         }
         
-        
         return retPresenter
     }
-    
 }
