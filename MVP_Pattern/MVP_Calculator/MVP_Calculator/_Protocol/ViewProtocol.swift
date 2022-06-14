@@ -8,10 +8,7 @@
 import Foundation
 
 protocol ViewProtocol: BaseViewProtocol {
-    
-    
-    
-    func updateOutputLabel(num: String)
+     func updateOutputLabel(num: String)
 }
 
 

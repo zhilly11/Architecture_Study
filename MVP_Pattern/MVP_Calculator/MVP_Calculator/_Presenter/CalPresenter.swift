@@ -10,15 +10,17 @@ import UIKit
 
 
 class CalPresenter: NSObject,PresentProtocol {
+    
+    var view: ViewProtocol!
+    var calModel: CalModel!
+    
+    
     func initView(view: BaseViewProtocol) -> BasePresentProtocol{
         self.view = (view as! ViewProtocol)
         self.calModel = CalModel()
         return self
     }
 
-    var calModel: CalModel?
-    var view: ViewProtocol?
-    
     private func getModel() -> CalModel?{
         return self.calModel
     }
