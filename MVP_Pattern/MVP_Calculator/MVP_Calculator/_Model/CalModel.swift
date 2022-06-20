@@ -24,7 +24,6 @@ class CalModel: NSObject {
     
     //view에서 넘버버튼 입력이 들어왔을때 수행
     func inputNumberButton(num: String) -> String{
-        print("model inputnumber ok")
         if self.displayNumber.count < 9 {
             self.displayNumber += num
             return displayNumber

@@ -9,11 +9,10 @@ import Foundation
 import UIKit
 
 
-class CalPresenter: NSObject,PresentProtocol {
+class CalPresenter: NSObject {
     
     var view: ViewProtocol!
     var calModel: CalModel!
-    
     
     func initView(view: BaseViewProtocol) -> BasePresentProtocol{
         self.view = (view as! ViewProtocol)
@@ -28,6 +27,10 @@ class CalPresenter: NSObject,PresentProtocol {
     private func getView() -> ViewProtocol? {
         return self.view
     }
+    
+}
+
+extension CalPresenter: PresentProtocol {
     
     func clickNumberButton(number: String) {
         if let model = getModel(),let view = getView() {
@@ -52,7 +55,4 @@ class CalPresenter: NSObject,PresentProtocol {
             view.updateOutputLabel(num: model.dotButton())
         }
     }
-    
-    
-    
 }

@@ -7,7 +7,7 @@
 
 import UIKit
 
-class CalViewController: UIViewController,ViewProtocol {
+class CalViewController: UIViewController {
     
     @IBOutlet var numberButton: [UIButton]!
     @IBOutlet var operationButton: [UIButton]!
@@ -44,11 +44,15 @@ class CalViewController: UIViewController,ViewProtocol {
     }
     
     @IBAction func tapDotButton(_ sender: UIButton) {
-        
+        if let calPresenter = calPresenter {
+            calPresenter.clickDotButton()
+        }
     }
     
+}
+
+extension CalViewController: ViewProtocol {
     func updateOutputLabel(num: String) {
         self.numberOutputLabel.text = num
     }
-    
 }
