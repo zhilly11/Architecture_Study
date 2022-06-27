@@ -48,7 +48,6 @@ class CalViewController: UIViewController {
             calPresenter.clickDotButton()
         }
     }
-    
 }
 
 extension CalViewController: ViewProtocol {

@@ -19,6 +19,9 @@
 		B4C25EBC28535EE30053F5E4 /* BaseViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4C25EBB28535EE30053F5E4 /* BaseViewProtocol.swift */; };
 		B4C25EBE28535EF80053F5E4 /* BasePresentProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4C25EBD28535EF80053F5E4 /* BasePresentProtocol.swift */; };
 		B4C25EC0285385CB0053F5E4 /* PresenterMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4C25EBF285385CB0053F5E4 /* PresenterMaker.swift */; };
+		B4F29D8C286991C900D00E56 /* ModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F29D8B286991C900D00E56 /* ModelProtocol.swift */; };
+		B4F29D8E2869A0DF00D00E56 /* BaseModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F29D8D2869A0DF00D00E56 /* BaseModelProtocol.swift */; };
+		B4F29D902869E16200D00E56 /* ModelMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F29D8F2869E16200D00E56 /* ModelMaker.swift */; };
 		B4FC1530283B608B00F6AB6F /* ViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4FC152F283B608B00F6AB6F /* ViewProtocol.swift */; };
 		B4FC1532283B60BB00F6AB6F /* PresentProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4FC1531283B60BB00F6AB6F /* PresentProtocol.swift */; };
 /* End PBXBuildFile section */
@@ -57,6 +60,9 @@
 		B4C25EBB28535EE30053F5E4 /* BaseViewProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewProtocol.swift; sourceTree = "<group>"; };
 		B4C25EBD28535EF80053F5E4 /* BasePresentProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasePresentProtocol.swift; sourceTree = "<group>"; };
 		B4C25EBF285385CB0053F5E4 /* PresenterMaker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresenterMaker.swift; sourceTree = "<group>"; };
+		B4F29D8B286991C900D00E56 /* ModelProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelProtocol.swift; sourceTree = "<group>"; };
+		B4F29D8D2869A0DF00D00E56 /* BaseModelProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseModelProtocol.swift; sourceTree = "<group>"; };
+		B4F29D8F2869E16200D00E56 /* ModelMaker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelMaker.swift; sourceTree = "<group>"; };
 		B4FC152F283B608B00F6AB6F /* ViewProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewProtocol.swift; sourceTree = "<group>"; };
 		B4FC1531283B60BB00F6AB6F /* PresentProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentProtocol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -113,8 +119,8 @@
 				B48DD38628325FF600EA9C30 /* _Presenter */,
 				B48DD3872832600200EA9C30 /* _ViewController */,
 				B48DD35A28325F7C00EA9C30 /* Main.storyboard */,
-				B48DD35D28325F7D00EA9C30 /* Assets.xcassets */,
 				B48DD35F28325F7D00EA9C30 /* LaunchScreen.storyboard */,
+				B48DD35D28325F7D00EA9C30 /* Assets.xcassets */,
 				B41B9ADB2834C83A00C2867A /* RoundButton.swift */,
 				B48DD36228325F7D00EA9C30 /* Info.plist */,
 			);
@@ -157,11 +163,14 @@
 		B4FC152E283B607000F6AB6F /* _Protocol */ = {
 			isa = PBXGroup;
 			children = (
-				B4FC152F283B608B00F6AB6F /* ViewProtocol.swift */,
-				B4FC1531283B60BB00F6AB6F /* PresentProtocol.swift */,
-				B4C25EBB28535EE30053F5E4 /* BaseViewProtocol.swift */,
-				B4C25EBD28535EF80053F5E4 /* BasePresentProtocol.swift */,
 				B4C25EBF285385CB0053F5E4 /* PresenterMaker.swift */,
+				B4FC152F283B608B00F6AB6F /* ViewProtocol.swift */,
+				B4C25EBB28535EE30053F5E4 /* BaseViewProtocol.swift */,
+				B4FC1531283B60BB00F6AB6F /* PresentProtocol.swift */,
+				B4C25EBD28535EF80053F5E4 /* BasePresentProtocol.swift */,
+				B4F29D8B286991C900D00E56 /* ModelProtocol.swift */,
+				B4F29D8D2869A0DF00D00E56 /* BaseModelProtocol.swift */,
+				B4F29D8F2869E16200D00E56 /* ModelMaker.swift */,
 			);
 			path = _Protocol;
 			sourceTree = "<group>";
@@ -297,7 +306,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4F29D902869E16200D00E56 /* ModelMaker.swift in Sources */,
 				B41B9ADC2834C83A00C2867A /* RoundButton.swift in Sources */,
+				B4F29D8E2869A0DF00D00E56 /* BaseModelProtocol.swift in Sources */,
+				B4F29D8C286991C900D00E56 /* ModelProtocol.swift in Sources */,
 				B48DD35928325F7C00EA9C30 /* CalViewController.swift in Sources */,
 				B48DD38B283260FE00EA9C30 /* CalPresenter.swift in Sources */,
 				B4C25EC0285385CB0053F5E4 /* PresenterMaker.swift in Sources */,

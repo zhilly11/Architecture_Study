@@ -12,7 +12,13 @@ import UIKit
 class CalPresenter: NSObject {
     
     var view: ViewProtocol!
-    var calModel: CalModel!
+    var calModel: ModelProtocol!
+    
+//    func initView(view: BaseViewProtocol,model: BaseModelProtocol) -> BasePresentProtocol{
+//        self.view = (view as! ViewProtocol)
+//        self.calModel = (model as! ModelProtocol)
+//        return self
+//    }
     
     func initView(view: BaseViewProtocol) -> BasePresentProtocol{
         self.view = (view as! ViewProtocol)
@@ -20,7 +26,7 @@ class CalPresenter: NSObject {
         return self
     }
 
-    private func getModel() -> CalModel?{
+    private func getModel() -> ModelProtocol?{
         return self.calModel
     }
     
@@ -31,7 +37,6 @@ class CalPresenter: NSObject {
 }
 
 extension CalPresenter: PresentProtocol {
-    
     func clickNumberButton(number: String) {
         if let model = getModel(),let view = getView() {
             view.updateOutputLabel(num: model.inputNumberButton(num: number))
