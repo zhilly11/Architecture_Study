@@ -101,7 +101,7 @@ extension CalModel: ModelProtocol {
             return result
         }
         
-        return displayNumber
+        return oper
     }
     
     func dotButton() -> String {

@@ -15,6 +15,8 @@ public class presenterMaker {
             retPresenter = CalPresenter().initView(view: view)
         }
         
+        debugPrint("presenterMaker run")
+        
         return retPresenter
     }
 }

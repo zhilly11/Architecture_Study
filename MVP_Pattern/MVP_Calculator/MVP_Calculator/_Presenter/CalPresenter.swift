@@ -14,17 +14,14 @@ class CalPresenter: NSObject {
     var view: ViewProtocol!
     var calModel: ModelProtocol!
     
-//    func initView(view: BaseViewProtocol,model: BaseModelProtocol) -> BasePresentProtocol{
-//        self.view = (view as! ViewProtocol)
-//        self.calModel = (model as! ModelProtocol)
-//        return self
-//    }
-    
     func initView(view: BaseViewProtocol) -> BasePresentProtocol{
         self.view = (view as! ViewProtocol)
         self.calModel = CalModel()
+        debugPrint(type(of: self.view))
+        debugPrint(type(of: self.calModel))
         return self
     }
+    
 
     private func getModel() -> ModelProtocol?{
         return self.calModel
