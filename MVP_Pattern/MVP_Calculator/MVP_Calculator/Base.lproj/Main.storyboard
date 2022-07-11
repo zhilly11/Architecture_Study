@@ -279,7 +279,7 @@
                                             <userDefinedRuntimeAttribute type="boolean" keyPath="isRound" value="YES"/>
                                         </userDefinedRuntimeAttributes>
                                         <connections>
-                                            <action selector="tapOperationButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="WHk-5e-NwN"/>
+                                            <action selector="tapCalculateButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hSE-Lv-eRy"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MMl-Tw-7Fg" customClass="RoundButton" customModule="MVP_Calculator" customModuleProvider="target">
@@ -386,6 +386,15 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6TR-gT-wkv">
+                                <rect key="frame" x="40" y="163" width="334" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="JYy-0s-9YO"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="36"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -395,13 +404,18 @@
                             <constraint firstItem="s4h-iK-afm" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="300" id="Eua-HW-J0v"/>
                             <constraint firstItem="s4h-iK-afm" firstAttribute="top" secondItem="I2E-bF-wua" secondAttribute="bottom" constant="20" id="G4R-dP-ddK"/>
                             <constraint firstItem="I2E-bF-wua" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="199" id="H0R-FF-26B"/>
+                            <constraint firstItem="I2E-bF-wua" firstAttribute="top" secondItem="6TR-gT-wkv" secondAttribute="bottom" constant="20" id="HQe-mB-ylG"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="6TR-gT-wkv" secondAttribute="trailing" constant="40" id="UAU-mT-FI7"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="s4h-iK-afm" secondAttribute="bottom" id="bBj-xt-Sg9"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="I2E-bF-wua" secondAttribute="trailing" constant="40" id="dqn-5B-7e4"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="s4h-iK-afm" secondAttribute="trailing" id="jQX-Ze-HgN"/>
+                            <constraint firstItem="6TR-gT-wkv" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="40" id="pT7-BY-5rf"/>
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="calculateButton" destination="K4q-LB-6Gs" id="fsg-Y4-QCi"/>
                         <outlet property="clearButton" destination="fIK-KH-CwX" id="nZU-gl-9Wg"/>
+                        <outlet property="inputLabel" destination="6TR-gT-wkv" id="mXr-ni-eAE"/>
                         <outlet property="numberOutputLabel" destination="I2E-bF-wua" id="cdf-gZ-flv"/>
                         <outletCollection property="numberButton" destination="9Hy-Er-5T8" collectionClass="NSMutableArray" id="bKj-aH-y5h"/>
                         <outletCollection property="numberButton" destination="xrJ-rs-bGN" collectionClass="NSMutableArray" id="IyI-Ps-YXg"/>
@@ -418,7 +432,6 @@
                         <outletCollection property="operationButton" destination="6Cf-5t-hwh" collectionClass="NSMutableArray" id="Xnu-gV-gDN"/>
                         <outletCollection property="operationButton" destination="xvr-ij-G7a" collectionClass="NSMutableArray" id="P3N-GL-w2i"/>
                         <outletCollection property="operationButton" destination="2gt-Cq-off" collectionClass="NSMutableArray" id="pyK-yd-LLX"/>
-                        <outletCollection property="operationButton" destination="K4q-LB-6Gs" collectionClass="NSMutableArray" id="tKU-4t-ndQ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

@@ -12,4 +12,5 @@ protocol PresentProtocol: BasePresentProtocol {
     func clickOperationButton(oper: String)
     func clickClearButton()
     func clickDotButton()
+    func clickCalculatorButton()
 }

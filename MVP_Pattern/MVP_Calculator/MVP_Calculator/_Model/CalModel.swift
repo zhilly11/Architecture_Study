@@ -67,6 +67,8 @@ class CalModel: NSObject {
 }
 
 extension CalModel: ModelProtocol {
+    
+    
     //view에서 넘버버튼 입력이 들어왔을때 수행
     func inputNumberButton(num: String) -> String{
         if self.displayNumber.count < 9 {
@@ -110,4 +112,18 @@ extension CalModel: ModelProtocol {
         }
         return displayNumber
     }
+    
+    func calculatorButton() -> String {
+        return displayNumber
+    }
+    
+    func updateInputText() -> String {
+        let str = ""
+        
+        
+        
+        
+        return str
+    }
+    
 }

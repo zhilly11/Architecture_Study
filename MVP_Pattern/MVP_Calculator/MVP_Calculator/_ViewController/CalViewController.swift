@@ -13,9 +13,11 @@ class CalViewController: UIViewController {
     @IBOutlet var operationButton: [UIButton]!
     @IBOutlet weak var clearButton: UIButton!
     @IBOutlet weak var numberOutputLabel: UILabel!
+    @IBOutlet weak var calculateButton: RoundButton!
+    @IBOutlet weak var inputLabel: UILabel!
     
     var calPresenter : PresentProtocol!
-     
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -48,10 +50,18 @@ class CalViewController: UIViewController {
             calPresenter.clickDotButton()
         }
     }
+    @IBAction func tapCalculateButton(_ sender: Any) {
+        if let calPresenter = calPresenter {
+            calPresenter.clickCalculatorButton()
+        }
+    }
 }
 
 extension CalViewController: ViewProtocol {
     func updateOutputLabel(num: String) {
         self.numberOutputLabel.text = num
+    }
+    func updateInputLabel(num: String) {
+        self.inputLabel.text = num
     }
 }

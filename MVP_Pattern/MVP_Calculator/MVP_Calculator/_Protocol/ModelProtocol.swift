@@ -12,4 +12,6 @@ protocol ModelProtocol: BaseModelProtocol{
     func clearButton() -> String
     func operationButton(oper: String) -> String
     func dotButton() -> String
+    func calculatorButton() -> String
+    func updateInputText() -> String 
 }

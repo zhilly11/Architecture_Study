@@ -115,10 +115,10 @@
 		B48DD35328325F7C00EA9C30 /* MVP_Calculator */ = {
 			isa = PBXGroup;
 			children = (
+				B48DD38428325FCD00EA9C30 /* _Delegate */,
 				B4FC9C622872DBE500FF3B61 /* _Maker */,
 				B4FC9C612872DBC800FF3B61 /* _BaseProtocol */,
 				B4FC152E283B607000F6AB6F /* _Protocol */,
-				B48DD38428325FCD00EA9C30 /* _Delegate */,
 				B48DD38528325FDC00EA9C30 /* _Model */,
 				B48DD3872832600200EA9C30 /* _ViewController */,
 				B48DD38628325FF600EA9C30 /* _Presenter */,
